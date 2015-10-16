@@ -1,5 +1,5 @@
 {
-  "name": "Dreams And Creations",
+  "name": "DreamsAndCreations",
   "version": "0.0.1",
   "description": "Default setup for build and javascript test project",
   "author": "Pascal Van Hecke",
@@ -9,8 +9,8 @@
   ],
   "main": "./src/javascript/index.js",
   "homepage": "https://www.dreamsandcreations.be/",
-  "bugs": "",
-  "license": "",
+  "bugs": "https://github.com/dreamsandcreations/javascript-setup-with-build/issues",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/dreamsandcreations/javascript-setup-with-build.git"
@@ -47,6 +47,7 @@
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.5.2",
+    "gulp-strip-debug": "^1.0.2",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.5",
     "jaguarjs-jsdoc": "git+https://github.com/davidshimjs/jaguarjs-jsdoc.git",
@@ -55,6 +56,7 @@
     "minimist": "^1.1.1",
     "mocha": "^2.2.5",
     "require-dir": "^0.3.0",
+    "rocambole-node-update": "^1.0.1",
     "run-sequence": "^1.1.0",
     "testem": "^0.8.3",
     "vinyl-buffer": "^1.0.0",
